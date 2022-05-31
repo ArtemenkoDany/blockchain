@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <form action="{{ url_for('index') }}" method="POST">
+        <div class="form-group">
+            <label for="inputEmail3">Loggin</label>
+            <input type="email" class="form-control" id="exampleInputLogin_input" placeholder="input your login" name="login_input" value="{{
+                    request.form.get('login_input', '') }}">
+        </div>
+
+        <div class="form-group">
+            <label for="x">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword_input" placeholder="input your password" name="password_input" value="{{
+                    request.form.get('password_input', '') }}">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword_check_inputr">Password check</label>
+            <input type="password" class="form-control" id="exampleInputPassword_check_input" placeholder="input same password as before" name="password_check_input" value="{{
+                    request.form.get(' password_check_input', '') }}">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+{% endblock %}
+
+
+{% block checking %}
+    {% for res in results %}
+        <div class="result">
+
+            block {{ res['block'] }} : {{ res['result'] }}
+        </div>
+    {% endfor %}
+{% endblock %}
