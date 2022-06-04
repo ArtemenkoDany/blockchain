@@ -14,8 +14,17 @@ instalation of bootstrap v4:
 
 You may see the project if you visit http://localhost:5000/ in your browser:
 
-<img src="https://github.com/ArtemenkoDany/blockchain/blob/main/pic/1.jpg" alt="image" width="30%"/>
+## In app you may:
 
+### Add an account
+<img src=https://github.com/ArtemenkoDany/accounts_app/blob/main/pic/IMAGE%202022-06-04%2013:24:44.jpg" alt="image" width="30%"/>
+
+### Observe info about accounts
+<img src="https://github.com/ArtemenkoDany/accounts_app/blob/main/pic/IMAGE%202022-06-04%2013:24:47.jpg" alt="image" width="30%"/>
+
+### Delete an account
+<img src="https://github.com/ArtemenkoDany/accounts_app/blob/main/pic/IMAGE%202022-06-04%2013:24:51.jpg" alt="image" width="30%"/>
+<img src="https://github.com/ArtemenkoDany/accounts_app/blob/main/pic/IMAGE%202022-06-04%2013:24:53.jpg" alt="image" width="30%"/>
 
 
 <div align="center">
